@@ -1,0 +1,36 @@
+
+.counter-body{
+padding-top: 50px;
+padding-left: 20px;
+padding-right: 20px;
+background-color:rgb(224, 56, 89);
+}
+
+.App {
+  text-align: center;
+}
+
+.counter-div{
+  padding-top: 50px;
+  padding-bottom: 460px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap:50px;
+}
+
+.counter{
+  padding:14px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  background-color:dodgerblue;
+  font-size: 16px;
+}
+
+@media (max-width:435px){
+  .counter{
+  padding:10px;
+  }
+}
